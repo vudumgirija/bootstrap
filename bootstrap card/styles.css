@@ -25,7 +25,23 @@ img{
 
 
 /*// X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {
+    p{
+        background-color: lightgray;
+        font-weight: normal;
+    }
+    img{
+        visibility:none;
+    }
+  }
 
 /*// XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { }
+@media (min-width: 1400px) {
+    p{
+        background-color: lightyellow;
+        font-weight: normal;
+    }
+    img{
+        visibility:none;
+    }
+ }
